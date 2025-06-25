@@ -21,7 +21,7 @@ iface = gr.Interface(
     fn=generate_story,
     inputs=[
         gr.Textbox(label="关键词（用逗号分隔，如：森林,魔法,公主）"),
-        gr.Radio(["冒险", "温馨", "悬疑", "科幻"], label="情感倾向"),
+        gr.Radio(["adventure", "warmth", "suspense", "magic","happy"], label="情感倾向"),
         gr.Slider(minimum=1, maximum=10, value=5, step=1, label="故事长度（百字）")
     ],
     outputs=gr.Textbox(label="生成的故事"),
