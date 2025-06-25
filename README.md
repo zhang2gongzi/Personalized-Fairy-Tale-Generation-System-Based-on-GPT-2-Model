@@ -14,3 +14,7 @@
 **扩展方向**  
 加入多模态输入（如图片转故事）。  
 实现故事续写或分章节生成功能。  
+**使用模型**
+GPT2:https://huggingface.co/openai-community/gpt2
+**目前效果**
+![Uploading 212792bcc2b7905af7b2855bb289223.png…]()
